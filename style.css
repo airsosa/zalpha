@@ -12,3 +12,28 @@ Tags:           simple, clean, lean, responsive-layout,accessibility-ready
 Text Domain:    zalpha
 */
 
+.footer-widgets-1.widget-area:last-child {
+  float: none;
+}
+
+.footer-widgets-1 {
+  text-align: center;
+}
+
+.footer-widgets-1 ul#menu-links li{
+  display: inline;
+  padding-right: 0.5em;
+}
+
+.footer-widgets-1 ul#menu-links li a{
+  padding-right: 0.5em;
+  font-size: 95%;
+}
+
+.footer-widgets-1 ul#menu-links li:after{
+  content: '|'
+}
+
+.footer-widgets-1 ul#menu-links li:last-child:after{
+  content: none;
+}

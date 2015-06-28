@@ -7,3 +7,9 @@ function theme_enqueue_styles() {
     array('parent-style')
   );
 }
+
+function zalpha_setup() {
+	add_theme_support( 'omega-footer-widgets', 1);
+}
+
+add_action( 'after_setup_theme', 'zalpha_setup', 11  );
